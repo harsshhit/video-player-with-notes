@@ -3,7 +3,7 @@ import VideoPlayer from "./components/VideoPlayer";
 import Notes from "./components/Notes";
 
 const App = () => {
-  const [videoId, setVideoId] = useState("dQw4w9WgXcQ");
+  const [videoId, setVideoId] = useState("r7qovpFAGrQ");
   const [notes, setNotes] = useState([]);
   const [inputValue, setInputValue] = useState("");
   const playerRef = useRef(null);
